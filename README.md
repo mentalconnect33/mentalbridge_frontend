@@ -1,6 +1,26 @@
-# Mental::Bridge 
+<div align="center">
+  <img src="./public/frontend_logo.png" alt="ConnectX Logo" width="300"/>
+  <h1>ConnectX Mental Health Support Platform</h1>
+  <p>A modern web application designed to provide mental health support, resources, and AI-assisted guidance.</p>
+</div>
 
-A modern web application designed to provide mental health support, resources, and AI-assisted guidance for users seeking help with mental wellness.
+## ⚠️ Project Status: Work in Progress
+
+This project is currently under active development and is **not yet complete**. Many features are still being implemented, and some functionality may be limited or subject to change. We welcome contributions and feedback as we continue to improve the platform.
+
+**Current Development Focus:**
+- Enhancing AI chat response formatting
+- Improving backend-frontend connectivity
+- Implementing user authentication flows
+- Expanding resource recommendations
+
+**Known Limitations:**
+- Some UI elements are placeholders
+- Backend connectivity may be unstable
+- Mobile responsiveness is being refined
+- Limited error handling in certain components
+
+We're working hard to bring this mental health support platform to completion. Please check back regularly for updates!
 
 ## Features
 
@@ -30,19 +50,25 @@ A modern web application designed to provide mental health support, resources, a
 - Detailed view of available resources
 - Filtering options for specific needs
 
-### Appointment Management (Coming Soon)
+### Appointment Management
 - Schedule appointments with professionals
 - Manage and track upcoming sessions
 - Reminder system
 
 ### Community Support
 - Access to community resources
+- Group session information
+- Peer support connections
 
 ### Crisis Support
 - Emergency contact information
 - Crisis intervention resources
 - Immediate help options
 
+### Profile Management
+- Personalized user settings
+- Progress tracking
+- Preference configuration
 
 ### Responsive Design
 - Mobile-friendly interface
@@ -81,6 +107,16 @@ The frontend connects to a Python FastAPI backend that provides:
 - Vector database for semantic search of resources
 - Markdown formatting for clean text responses
 
+## Screenshots
+
+<div align="center">
+  <img src="./public/screenshots/dashboard.png" alt="Dashboard" width="800"/>
+  <p><em>Dashboard Interface</em></p>
+  
+  <img src="./public/screenshots/chat.png" alt="Chat Interface" width="800"/>
+  <p><em>AI Chat Assistant</em></p>
+</div>
+
 ## Getting Started
 
 ### Prerequisites
@@ -105,6 +141,9 @@ The frontend connects to a Python FastAPI backend that provides:
    NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+   NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
    ```
 
 4. Start the development server
@@ -120,8 +159,8 @@ By default, the application starts in mock data mode. To connect to the backend:
 2. Toggle the "Connect to live backend" button in the chat interface
 
 ## License
-All Rights reserved
+[Your chosen license]
 
 ## Acknowledgements
-- OpenAI for the AI capabilities assistance (especially the frontend -- frontend sucks)
+- OpenAI for the AI capabilities
 - All open-source libraries and frameworks used in this project
