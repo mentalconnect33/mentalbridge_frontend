@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./public/frontend_logo.png" alt="ConnectX Logo" width="300"/>
-  <h1>ConnectX Mental Health Support Platform</h1>
+  <img src="./public/frontend_logo.png" alt="Mental::Bridge Logo" width="300"/>
+  <h1>Mental::Bridge Mental Health Support Platform</h1>
   <p>A modern web application designed to provide mental health support, resources, and AI-assisted guidance.</p>
 </div>
 
 ## ⚠️ Project Status: Work in Progress
 
-This project is currently under active development and is **not yet complete**. Many features are still being implemented, and some functionality may be limited or subject to change. We welcome contributions and feedback as we continue to improve the platform.
+This project is currently under active development and is **not yet complete**. Many features are still being implemented, and some functionality may be limited or subject to change. We welcome feedback as we continue to improve the platform.
 
 **Current Development Focus:**
 - Enhancing AI chat response formatting
